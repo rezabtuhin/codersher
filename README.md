@@ -1,6 +1,6 @@
 # Codersher - A online coding contest platform
 
-### Codersher is an online coding competition platform where user can create their own problem with custom test set and host new contest among others. Codersher provides a variety of different coding problems with different languages. It has built in Integrated development environments with compiler. User can submit and save their solution here. Codersher provides a variety of of security features too.
+Codersher is an online coding competition platform where user can create their own problem with custom test set and host new contest among others. Codersher provides a variety of different coding problems with different languages. It has built in Integrated development environments with compiler. User can submit and save their solution here. Codersher provides a variety of of security features too.
 
 ![Fishbook branding](./assets/Banner/banner.png "😎😎")
 
