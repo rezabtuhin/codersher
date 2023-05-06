@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1d2026; 
+    color: white;
+}
+
+.user-info p{
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: -8px;
+    color: #848482;
+}
+.user-info .rank{
+    font-family: 'Oswald', sans-serif;
+    color: #848482;
+    font-size: 1rem;
+}
+
+.user-history table {
+    font-size: 14px;
+    width: 100%;
+    display: table;
+    border: none;
+    color: #b8c6cc;
+}
+
+.user-history table tr td:first-child{
+    width: 50%;
+}
+
+.actions a{
+    font-size: 22px;
+}
+.actions a i:hover{
+    color: #ffffff;
+}
+.cardss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.cardss a{
+    text-decoration: none;
+    color: #c0c0c0;
+}
+.cardss a h5{
+
+    font-weight: 700;
+}
+.cardx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardx:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    
+}
+
+.cardx .titles{
+    display: flex;
+}
+
+.cardss .titles i{
+    color: #c0c0c0;
+    font-size: 25px;
+}
+.line{
+    height: 1px;
+    background-color: #c0c0c0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #c0c0c0;
+    transition: .2s ease-in-out;
+}
+
+.links a:hover{
+    background-color: #464646;
+    border-radius: 3px;
+}
+
+.cardx{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 260px;
+    width: 35.5vw;
+    border-radius: 5px;
+    transition: .1s ease-in;
+}
+@media (max-width: 992px) {
+    .cardss {
+        display: block;
+    }
+
+    .cardx {
+        margin-bottom: 10px;
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .cardss {
+        display: block;
+        margin-top: 10px;
+    }
+}
