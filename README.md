@@ -33,4 +33,4 @@ Codersher is an online coding competition platform where user can create their o
 - [Ckeditor](https://ckeditor.com/ckeditor-4/)
 - [Phpmailer](https://github.com/PHPMailer/PHPMailer)
 
-> **_Note:_** You may need to change the compiler location for **_MINGW_** and **_jdk_** in _/src/logic/compiler.php_ in order to make system up and running.
+> **_Note:_** You may need to change the compiler location for **_MINGW_** and **_jdk_** in _/src/logic/compile.php_ in order to make system up and running.
